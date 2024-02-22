@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”robots” content=”noindex, nofollow”>
+    <title>Process</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="behind.html">
+                <li>Behind the scenes</li>
+            </a>
+            <a href="process.html">
+                <li>Process</li>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="grid">
+            <div>
+                <h2>Mindmap</h2>
+                <div class="mindmap">
+                    <img src="imgs/Mindmap.png" alt="mindmap">
+                </div>
+            </div>
+            <div class="empathy">
+                <h2>Empathy Map Canvas</h2>
+                <img src="imgs/EmpathyMap.png" alt="empathymap">
+            </div>
+            <div>
+                <h2>Storyboards</h2>
+                <div class="storyboard">
+                    <img src="imgs/video1.png" alt="storyboard">
+                    <img src="imgs/video2.png" alt="storyboard">
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>Monica Hieronymus Hansen - Tema11 Assistens Kirkegaard</footer>
+</body>
+
+</html>
+
+<style>
+    img {
+        width: 100%;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem;
+        gap: 4rem;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .mindmap {
+        margin: 2rem;
+    }
+
+    .storyboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+</style>
